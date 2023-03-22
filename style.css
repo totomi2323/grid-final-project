@@ -118,7 +118,7 @@
   }
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 315px));
     gap: 20px; ;
 }
 
@@ -153,7 +153,7 @@
 }
 .news {
     display: grid;
-    grid-template-rows: auto 100px auto;
+    grid-template-rows: auto 100px 1fr;
 }
 
 .announcements-container {
@@ -174,4 +174,28 @@
 .bottom-line {
     border-bottom: 1px solid grey;
     padding-bottom: 18px;
+}
+
+.trending-container {
+  display: grid;
+  background-color: #f1f5f9;
+  margin-right: 20px;
+  box-shadow: 2px 1px 1px;
+  border-radius: 18px;
+  justify-content: center;
+}
+.trending {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+}
+.trending-logo { 
+  width:50px;
+  border-radius: 30px;
+  padding: 5px;
+  margin-right: 20px;
+}
+.trending-name {
+  font-size: 20px;
 }
